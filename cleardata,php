@@ -1,0 +1,16 @@
+<?php
+$connect = mysqli_connect("localhost","root","mysql@22otieno.","secure_e_voting_system");
+$id= "DELETE  FROM voter_details";
+$query = mysqli_query($connect,$id);
+
+ 
+if($query){
+    echo"record deleted successfully";
+}
+else
+{
+    echo "NO records found";
+}
+
+
+?>

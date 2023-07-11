@@ -1,0 +1,65 @@
+#m{
+    display: none;
+}
+#x{
+    display: none;
+}
+@media (max-width:600px){
+  #container, .sidebar{
+    display: none;
+  }
+  #m{
+    display: block;
+  }
+  #l{
+    display: none;
+  }
+  .main{
+   
+}
+.election-data-center{
+    padding: 0px;
+}
+
+}
+
+
+@media (max-width:800px){
+    #container, .sidebar{
+      display: none;
+    }
+    #m{
+      display: block;
+    }
+    #l{
+      display: none;
+    }
+    .main{
+       
+       
+    }
+    .election-data-center{
+        padding: 0px;
+    }
+  
+  }
+  @media (max-width:1200px){
+    #container, .sidebar, .profile, .menu-sidebar{
+      display: none;
+    }
+    #main{
+       
+       
+    }
+
+    #m{
+      display: block;
+    }
+    #l{
+      display: none;
+    }
+    .election-data-center{
+        padding: 0px;
+    }
+  
+  }
